@@ -11,7 +11,7 @@ import java.time.Instant;
 @Getter
 @Setter
 @AllArgsConstructor
-@NoArgsConstructor
+//@NoArgsConstructor  com.raj.bookmarker.domain.BookmarkDTO does not need a no-args constructor since we are using the all-args constructor for mapping.
 public class BookmarkDTO {
     private Long id;
     private String title;
