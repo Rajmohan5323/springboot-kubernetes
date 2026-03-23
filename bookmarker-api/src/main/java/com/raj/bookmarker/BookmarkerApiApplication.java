@@ -8,7 +8,7 @@ public class BookmarkerApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BookmarkerApiApplication.class, args);
-	//	System.err.println("Hello World!");
+		System.err.println("Hello World!");
 	}
 
 }
